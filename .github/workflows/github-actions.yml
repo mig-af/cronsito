@@ -18,5 +18,5 @@ jobs:
                             pip install -r requirements.txt
                      
                     - name : corriendo script  
-                      run: python cron.py 
+                      run: python cronsito.py 
 
