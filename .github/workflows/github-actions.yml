@@ -1,6 +1,6 @@
 name : cronsito
 
-adon : 
+on : 
       schedule:
                - cron : "*/5 * * * *"
 jobs:
