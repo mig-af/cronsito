@@ -1,0 +1,18 @@
+name : cronsito
+
+cron : 
+      schedule:
+               - cron : "*/5 * * * *"
+jobs:
+    run-script:
+              runs-on: ubuntu-latest
+              env:
+                  TELEGRAM: 6859517839:AAF9Ofn_q6ia9XLaoP0BiAIfe68L5ZkN0Us
+
+              steps:
+                    - name: siu
+                    - uses: actions/checkout@v2
+
+                
+                      run: python cron.py 
+
