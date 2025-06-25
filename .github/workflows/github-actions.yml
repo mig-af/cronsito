@@ -11,8 +11,12 @@ jobs:
 
               steps:
                     - name: siu
-                    - uses: actions/checkout@v2
-
-                
+                      uses: actions/checkout@v2
+                    
+                    - name: instalando dependencias
+                      run : |
+                            pip install -r requirements.txt
+                     
+                    - name : corriendo script  
                       run: python cron.py 
 
